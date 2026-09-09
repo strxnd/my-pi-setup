@@ -1,7 +1,6 @@
 ---
 name: unslop
-description: Cut AI tells from any writing. Must always apply.
-disable-model-invocation: true
+description: Cut AI tells from any writing. Must always apply — load this skill and follow it before writing or editing any prose (docs, comments, commit messages, replies), not just when the task looks writing-focused.
 ---
 
 # Unslop
