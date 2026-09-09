@@ -1,0 +1,8 @@
+{
+  "defaultProvider": "local-spark",
+  "defaultModel": "GLM-5.3-Flash-EXL3",
+  "defaultThinkingLevel": "high",
+  "theme": "omarchy-system",
+  "lastChangelogVersion": "0.85.1",
+  "quietStartup": true
+}

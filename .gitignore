@@ -1,0 +1,11 @@
+# Secrets — never commit
+auth.json
+.env
+
+# Runtime state / caches (regenerated, may contain private session data)
+sessions/
+models-store.json
+
+# Dependencies
+node_modules/
+extensions/*/node_modules/
