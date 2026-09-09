@@ -23,6 +23,9 @@ bin/
 node_modules/
 extensions/*/node_modules/
 
+# Omarchy-specific theme (recreate locally if on Omarchy)
+themes/omarchy-system.json
+
 # Logs and temporary files
 *.log
 *.tmp

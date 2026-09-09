@@ -87,4 +87,6 @@ does **not** contain `settings.json`, `models.json`, `auth.json`, or `.env`
 - Extensions live in `extensions/<name>/` and are loaded by pi automatically.
   Shared helpers live in `extensions/shared/`.
 - Skills live in `skills/<name>/SKILL.md` and are loaded on demand.
+- The Omarchy theme (`themes/omarchy-system.json`) is gitignored — on Omarchy
+  machines, recreate it via omarchy's theme switcher or pi's theme picker.
 - Formatting/lint: `npm run format` (prettier). Type check: `npm run check`.
