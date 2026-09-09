@@ -1,11 +1,34 @@
 # Secrets — never commit
 auth.json
 .env
+.env.*
+!.env.example
+*.pem
+*.key
 
-# Runtime state / caches (regenerated, may contain private session data)
+# Pi runtime and private state
 sessions/
+/workflows/
+trust.json
+settings.json
+models.json
 models-store.json
+extensions/summaries/config.private.json
+extensions/summaries/config.private.json.*.tmp
+
+# Downloaded/generated executables
+bin/
 
 # Dependencies
 node_modules/
 extensions/*/node_modules/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Local editor settings
+.vscode/
+.idea/
