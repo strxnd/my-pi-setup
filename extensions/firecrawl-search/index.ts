@@ -85,7 +85,7 @@ function createClient() {
   }
 
   return Effect.try({
-    try: () => new Firecrawl({ apiKey }),
+    try: () => new Firecrawl({ apiKey, apiUrl: readEnvValue("FIRECRAWL_API_URL") }),
     catch: (cause) =>
       new FirecrawlError({ message: errorMessage(cause), cause }),
   });
